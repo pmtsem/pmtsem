@@ -1,0 +1,77 @@
+select{ width:210px;}
+A:visited {text-decoration: none; color:#0000FF;}
+
+.menubar
+{
+	background: none repeat scroll 0 0 #00FF00;
+    height: 22px;
+    text-align:center;
+    width: 765px; 
+}
+.menubar a
+{
+	font-size: 16px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+}
+body{ background:#666666;}
+.formbody
+{
+	width:600px; 
+	background:#FFFF99;  
+	line-height:30px;
+}
+.loginbody
+{
+	width:500px;
+	background:#FFFF99; 
+	line-height:30px; 
+}
+.button
+{
+	background: -moz-linear-gradient(center top , #3E779D, #FE0103) repeat scroll 0 0 transparent;
+    border-radius: 8px 8px 8px 8px;
+    border-top: 1px solid #96D1F8;
+    box-shadow: 0 1px 0 #000000;
+    color: #96F2A4;
+    font-family: Georgia,serif;
+    font-size: 14px;
+	margin: 10px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+	width:100px;
+}
+.button1
+{
+	background: -moz-linear-gradient(center top , #3E779D, #FE0103) repeat scroll 0 0 transparent;
+    border-radius: 8px 8px 8px 8px;
+    border-top: 1px solid #96D1F8;
+    box-shadow: 0 1px 0 #000000;
+    color: #96F2A4;
+    font-family: Georgia,serif;
+    font-size: 14px;
+	margin: 10px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+}
+.button:hover
+{
+   border-top-color: #28597a;
+   background: #FE0103;
+   color: #ccc;
+}
+.button:active
+{
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+.error{ color:red;}
+#logout{ margin:5px 0px 0px 950px; color:#FFFFFF;}
+#logout A:link {text-decoration: none; color:#FFFFFF;}
+#logout A:visited {text-decoration: none; color:#FFFFFF;}
+#logout A:active {text-decoration: none; color:#FFFFFF;}
+#logout A:hover {text-decoration:none; color: red;}

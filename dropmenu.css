@@ -1,0 +1,59 @@
+/* CSS Document */
+*
+{ margin:0px;
+  padding:0px;
+}
+
+
+#menu ul
+
+{ 
+list-style:none ;
+}
+
+#menu ul li 
+
+{ background:#CC66FF ;
+border:10px solid:#FFFFFF ;
+width:125px;
+height:30px;
+text-align:center ;
+float:left;
+position:relative;
+border-radius:30px;
+
+}
+
+#menu ul li a
+{ text-decoration:none;
+color:#FFFFFF;
+display:block;
+border-radius:8px;
+
+}
+
+#menu ul li a:hover
+{ background:#CC00FF ; 
+
+}
+#menu ul ul li 
+
+{ background:#0099FF ;
+border:1px solid:#FFFFFF ;
+width:200px;
+height:30px;
+text-align:left ;
+float:left;
+position:relative;
+}
+
+#menu ul ul 
+{ 
+ position:absolute;
+ display:none ;
+}
+
+#menu ul li:hover > ul
+
+{ display:block ;
+}

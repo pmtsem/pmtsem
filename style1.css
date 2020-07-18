@@ -1,0 +1,35 @@
+.formbody
+{
+	width:600px; 
+	background:#FFFF99; 
+	margin:20px 0 0 300px; 
+	line-height:30px;
+}
+.button
+{
+	background: -moz-linear-gradient(center top , #3E779D, #FE0103) repeat scroll 0 0 transparent;
+    border-radius: 8px 8px 8px 8px;
+    border-top: 1px solid #96D1F8;
+    box-shadow: 0 1px 0 #000000;
+    color: #96F2A4;
+    font-family: Georgia,serif;
+    font-size: 14px;
+	margin: 10px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+	width: 100px;
+}
+.button:hover
+{
+   border-top-color: #28597a;
+   background: #FE0103;
+   color: #ccc;
+}
+.button:active
+{
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+.error{ color:red;}
